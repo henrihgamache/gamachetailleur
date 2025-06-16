@@ -889,7 +889,8 @@ header a{
     margin-right: auto;
     overflow: hidden;
     position: relative;
-    visibility: hidden;
+    object-fit: cover;
+    width: calc(95%);
     
   }
 
