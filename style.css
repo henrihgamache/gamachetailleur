@@ -889,6 +889,7 @@ header a{
     margin-right: auto;
     overflow: hidden;
     position: relative;
+    visibility: hidden;
     
   }
 
