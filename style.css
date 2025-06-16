@@ -845,7 +845,10 @@ header a{
 
 /*Iphone*/
 
-@media only screen and (max-width: 395px) {
+
+
+
+@media only screen and (max-width: 390px) {
   
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
   body{
@@ -861,6 +864,17 @@ header a{
   
     
   }
+
+
+  .logo {
+    transform: scale(0.3);
+    height: 1px;
+    width: 1px;
+    margin-top: 20px;
+    margin-bottom: 450px;
+    margin-left: 55%;
+  }
+
   a{
     text-decoration: none;
     
@@ -882,17 +896,23 @@ header a{
   }
   /* carousel */
   .carousel{
-    height: 110vh;
+    height: 150vh;
     margin-top: -50px;
-    width: 100%;
+    width: 200vw;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     position: relative;
-    object-fit: cover;
     
   }
 
+.title{
+  font-size: 80px;
+
+}
+  .content {
+    font-size: 17px;
+  }
   .carousel .list .item{
     width: 100%;
     height: 100%;
@@ -998,8 +1018,8 @@ header a{
     align-items: center;
   }
   .arrows button{
-    width: 40px;
-    height: 40px;
+    width: 250px;
+    height: 150px;
     border-radius: 50%;
     background-color: #eee4;
     border: none;
@@ -1174,15 +1194,6 @@ header a{
 
   }    
 
-  .logo {
-    transform: scale(0.15);
-    height: 1px;
-    width: 1px;
-    margin-top: 20px;
-    margin-bottom: 230px;
-    margin-right: 30%;
-    margin-left: 30%;
-  }
 
 
   .description_Title {
@@ -1191,6 +1202,7 @@ header a{
     font-size: 30px;
     margin-left: auto;
     margin-right: auto;
+    width: 750px;
   }
 
   @keyframes slide {
@@ -1209,13 +1221,14 @@ header a{
     position: relative;
     background-color: transparent;
     top: 40px;
+    width: 750;
   }
   
   .images_menu:before,
   .images_menu:after {
     position: absolute;
     top: 0;
-    width: 250px;
+    width: 300px;
     height: 100%;
     content: "";
     z-index: 2;
@@ -1240,13 +1253,13 @@ header a{
   
   .IM-slide {
     display: inline-block;
-    animation: 86s slide infinite linear;
+    animation: 48s slide infinite linear;
   }
   
   .IM-slide img {
     height: 200px;
     margin: 0 20px;
-    width: 300px;
+    width: 350px;
   }
 
   #introbox {
@@ -1274,8 +1287,10 @@ header a{
   
   
   .intro-video {
-    padding: 3%;
-    height: 80%; 
+    padding: 0%;
+    height: 100%; 
+    width: 770px;
+    height: 435px;
     min-width: auto;
     max-width: auto;
     min-height: auto;
@@ -1316,55 +1331,53 @@ header a{
     color: black;
     margin-top: 0px;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 65px;
+    width: 750px;
+    margin-top: -350px;
     
   }
   
   
   .About_head_description {
-    width: 350px;
+    width: 750px;
     color: black;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 40px;
   }
   .About_images {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    
     
     
    
       
   }
   
-  #About_image1 {
+  .About_images1 {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid;
-    
-
+  }
+  
+  .About_image12 {
+    margin-bottom: 300px;
+  }
+  
+  .About_images2 {
+    margin-top: -30px;
+    margin-left: 100px;
     
   }
   
   
-  #About_image2 {
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid;
-    width: auto;
-    
-  }
   
-  
-  
-  #About_image3 {
+  .About_image3 {
     margin-top:50px;
     margin-left: auto;
     margin-right: auto;
-    margin-left: 0px;
+    margin-left: 100px;
     border: 2px solid;
     width: auto;
    
@@ -1373,7 +1386,7 @@ header a{
   
 
   
-  #About_image4 {
+  .About_image4 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
@@ -1387,36 +1400,40 @@ header a{
   
     
   }
-
-  #About_image11 {
+  #about_image21 {
+    margin-right: 80px;
+  }
+  .About_image11 {
     width: calc(32%);
     height: calc(32%);
   }
-  #About_image12 {
+  .About_image12 {
     width: calc(32%);
     height: calc(32%);
   }
-  #About_image13 {
+  .About_image13 {
     width: calc(32%);
     height: calc(32%);
   }
-  #About_image21 {
+  .About_image21 {
     width: calc(33%);
     height: calc(33%);
+    margin-left: 100px;
   }
-  #About_image22 {
+  .About_image22 {
     width: calc(33%);
     height: calc(33%);
+    
   }
-  #About_image31 {
+  .About_image31 {
     width: calc(32%);
     height: calc(32%);
   }
-  #About_image32 {
+  .About_image32 {
     width: calc(32%);
     height: calc(32%);
   }
-  #About_image33 {
+  .About_image33 {
     width: calc(32%);
     height: calc(32%);
   }
@@ -1432,36 +1449,38 @@ header a{
     width: calc(95%);
   }
 
-  .SurMFemmes_description {
-    width: 350px;
+  .SurMFemmes_title {
+    width: 750px;
     color: black;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 60px;
+    margin-bottom: 70px;
+    margin-top: -250px;
   }
 
   
 
 
-  #Retouche_image {
-    margin-top: 0px;
-    margin-left: -41%;
-    margin-bottom: 0px;
-    border: 2px solid;
-    width: 384px;
-    height: 512px;
-    border-radius: 10px;
-    width: calc(180%);
-    height: calc(90%);
-
+  .Retouche_image {
+ 
+    width: 750px;
+    height: 1000px;
+    margin-bottom: -300px ;
   } 
 
+  .Retouche_title {
+    width: 750px;
+    font-size: 60px;
+  }
+
   .Retouche_description {
-    width: 350px;
+    width: 750px;
     color: black;
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 30px;
+    
   }
 
 
@@ -1469,8 +1488,11 @@ header a{
   #heures {
     margin-top: 0px ;
     margin-bottom: 40px;
-    margin-left: 0;
-    margin-right: 0;
+    font-size: 39px;
+    width: 750px;
+    text-align-last: center;
+    text-align: center;
+    
 
   
   }
@@ -1479,22 +1501,20 @@ header a{
     margin-left: auto;
     margin-right: auto;
     color: #000;
-    width: 100%;
+    width: 750px;
     height: 50px;
-    font-size: 8px;
+    font-size: 20px;
+
   }
 
   #map {
-    width: 782px;
-    height: 648px;
+    width: 750px;
+    height: 500px;
     background-color: transparent;
     margin-top: 2%;
-    border-radius: 10px;
     resize: both;
-    margin-left: auto;
-    margin-right:auto;
-    margin-bottom: -200px;
-    
+    align-items: center;
+    margin-bottom: 100px;
       
    
   
@@ -1511,13 +1531,15 @@ header a{
     border-radius: 10px;
     resize: both;
     margin-left: 0.8%;
+    border-radius: 10px solid;
+    border-color: #000;
    
   
   }
   
   .google-map iframe {
-    height: 300px;
-    width: 100%;
+    height: 500px;
+    width: 750px;
     left: 0;
     top: 100px;
     position: absolute;
@@ -1530,7 +1552,7 @@ header a{
   }
   
   #store_info {
-    color: white;
+    color: black;
   }
 
 
@@ -1539,13 +1561,13 @@ header a{
     margin-top: 90px;
     margin-bottom: -10px;
     bottom: 0%;
-    width: 100%;
+    width: 785px;
     height: 180px;
     background-color: lightgrey;
     color: black;
     display: flex;
     flex-direction: column;
-    font-size: 7.5px;
+    font-size: 12px;
     
  
    
@@ -1553,8 +1575,8 @@ header a{
   
   .suivez-nous {
     margin-left: 79.5%;
-    padding-top: 25px;
-    padding-bottom: -40px;
+    margin-top: -15px;
+    padding-bottom: 0px;
   
   }
   
@@ -1616,6 +1638,8 @@ header a{
    
 
 }
+
+
 
 @media (min-width: 850px) {
 
@@ -1690,5 +1714,6 @@ header a{
     font-size: 50px;
     
   }
+
 
 }
