@@ -882,15 +882,14 @@ header a{
   }
   /* carousel */
   .carousel{
-    height: 100vh;
+    height: 10vh;
     margin-top: -50px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     position: relative;
-    object-fit: cover;
-    width: calc(95%);
+    
     
   }
 
