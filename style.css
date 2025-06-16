@@ -28,7 +28,7 @@ header a{
 }
 /* carousel */
 .carousel{
-    height: 10vh;
+    height: 110vh;
     margin-top: -50px;
     width: 100vw;
     overflow-x: hidden;
@@ -882,14 +882,14 @@ header a{
   }
   /* carousel */
   .carousel{
-    height: 10vh;
+    height: 110vh;
     margin-top: -50px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     position: relative;
-    
+    object-fit: cover;
     
   }
 
