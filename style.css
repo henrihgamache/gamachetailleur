@@ -388,7 +388,6 @@
     overflow-y: scroll;
     overflow-x: hidden ;
     height: 100vh;
-    zoom: 0.9%;
   
     
   }
@@ -1264,7 +1263,7 @@
     overflow-x: hidden ;
     height: 100vh;
     max-width: 100%;
-    zoom: 90%;
+
   
     
   }
